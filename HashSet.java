@@ -24,7 +24,7 @@ void remove(key) Removes the value key in the HashSet. If key does not exist in 
  * Hashset
  * Underlying data structure is  array, choosing a proper hash function is important to avoid collision problem.
  * To avoid wastage of space and collision occuring at the index if only 1d array used we maintain 
- * an array as the secondary data structure. This 2ndary data structure stores boolean values. 
+ * another array as the secondary data structure. This 2ndary data structure stores boolean values. 
  * so an Array is used to store poniters to boolean arrays. (kind of 2-d array but we are not allocating 
 memory to all memory locations in this example in class constructor. memory will be allocated as requirement
 in add function).

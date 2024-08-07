@@ -81,7 +81,7 @@ class MinStack{
     public void push(int val){
         min =  Math.min(min,val); // compare with the previous minimum and the value that is coming 
         this.minSt.push(min);
-        this.st.push(min); // 1:1 mapping of push
+        this.st.push(val); // 1:1 mapping of push
     }
 
     public void pop(){
